@@ -1,6 +1,8 @@
 //SLPVectorizer: Assertion
 // `isVectorLikeInstWithConstOps(FirstInst) && isVectorLikeInstWithConstOps(I) && "Expected vector-like insts only."' failed with -O3 -march=skx #58616
-
+#include <iostream>
+#include <stdio.h>
+#include <stdbool.h>
 extern char a[];
 const int &c(int &d, const int &f) { return d ? f : d; }
 int e, g;

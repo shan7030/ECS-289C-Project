@@ -1,8 +1,9 @@
 // Clang produces incorrect result with -O3 -march=skx
 //42833
 // Reproducer:
+#include <iostream>
 #include <stdio.h>
-
+#include <stdbool.h>
 int b;
 unsigned c[49];
 int d[49];

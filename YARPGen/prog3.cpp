@@ -1,5 +1,7 @@
 //[NewGVN] Assertion `BeforeCC->isEquivalentTo(AfterCC) && "Value number changed after main loop completed!"' failed #53807
-
+#include <iostream>
+#include <stdio.h>
+#include <stdbool.h>
 int a, b, c, d;
 unsigned e;
 char f;

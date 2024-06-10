@@ -2,7 +2,8 @@
 // Bug 32241 - Incorrect result with -march=skx -O0 -m32
 // Reproducer:
 #include <iostream>
-
+#include <stdio.h>
+#include <stdbool.h>
 int main () {
     unsigned short aa = 10959;
     unsigned short bb = 50038;
